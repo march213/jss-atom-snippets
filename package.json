@@ -1,0 +1,15 @@
+{
+  "name": "jss-atom-snippets",
+  "version": "0.1.0",
+  "description": "JSS snippets for atom",
+  "keywords": [
+    "jss",
+    "snippets"
+  ],
+  "repository": "https://github.com/march213/jss-atom-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

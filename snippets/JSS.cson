@@ -1,0 +1,478 @@
+'.source.js':
+  #
+  # animation
+  #
+  'animation':
+    'prefix': 'janim'
+    'body': 'animation: \'$1\','
+
+  'animation-delay':
+    'prefix': 'janimdel'
+    'body': 'animationDelay: \'$1\','
+
+  'animation-direction':
+    'prefix': 'janimdir'
+    'body': 'animationDirection: \'$1\','
+
+  'animation-duration':
+    'prefix': 'janimdur'
+    'body': 'animationDuration: \'$1\','
+
+  'animation-fill-mode':
+    'prefix': 'janimfm'
+    'body': 'animationFillMode: \'$1\','
+
+  'animation-iteration-count':
+    'prefix': 'janimic'
+    'body': 'animationIterationCount: \'$1\','
+
+  'animation-name':
+    'prefix': 'janimn'
+    'body': 'animationName: \'$1\','
+
+  'animation-play-state':
+    'prefix': 'janimps'
+    'body': 'animationPlayState: \'$1\','
+
+  'animation-timing-function':
+    'prefix': 'janimtf'
+    'body': 'animationTimingFunction: \'$1\','
+
+
+
+  'appearance':
+    'prefix': 'jap'
+    'body': 'appearance: \'$1\','
+
+
+
+  'position':
+    'prefix': 'jpos'
+    'body': 'position: \'$1\','
+
+  'top':
+    'prefix': 'jt'
+    'body': 'top: \'$1\','
+
+  'left':
+    'prefix': 'jl'
+    'body': 'left: \'$1\','
+
+  'bottom':
+    'prefix': 'jb'
+    'body': 'bottom: \'$1\','
+
+  'right':
+    'prefix': 'jr'
+    'body': 'right: \'$1\','
+
+  'z-index':
+    'prefix': 'jz'
+    'body': 'zIndex: $1,'
+
+  'float':
+    'prefix': 'jfl'
+    'body': 'float: \'$1\','
+
+  'clear':
+    'prefix': 'jcl'
+    'body': 'clear: \'$1\','
+
+
+  #
+  # columns
+  #
+  'columns':
+    'prefix': 'jcolm'
+    'body': 'columns: \'$1\','
+
+  'column-count':
+    'prefix': 'jcolmc'
+    'body': 'columnCount: \'$1\','
+
+  'column-fill':
+    'prefix': 'jcolmf'
+    'body': 'columnFill: \'$1\','
+
+  'column-gap':
+    'prefix': 'jcolmg'
+    'body': 'columnGap: \'$1\','
+
+  'column-rule':
+    'prefix': 'jcolmr'
+    'body': 'column-rule: \'$1\','
+
+  'column-rule-color':
+    'prefix': 'jcolmrc'
+    'body': 'columnRuleColor: \'$1\','
+
+  'column-rule-style':
+    'prefix': 'jcolmrs'
+    'body': 'columnRuleStyle: \'$1\','
+
+  'column-rule-width':
+    'prefix': 'jcolmrw'
+    'body': 'columnRuleWidth: \'$1\','
+
+  'column-span':
+    'prefix': 'jcolms'
+    'body': 'columnSpan: \'$1\','
+
+  'column-width':
+    'prefix': 'jcolmw'
+    'body': 'columnWidth: \'$1\','
+
+
+
+  'display':
+    'prefix': 'jd'
+    'body': 'display: \'$1\','
+
+  'visibility':
+    'prefix': 'jv'
+    'body': 'visibility: \'$1\','
+
+  'overflow':
+    'prefix': 'jov'
+    'body': 'overflow: \'$1\','
+
+  'overflow-x':
+    'prefix': 'jovx'
+    'body': 'overflowX: \'$1\','
+
+  'overflow-y':
+    'prefix': 'jovy'
+    'body': 'overflowY: \'$1\','
+
+  'overflow-style':
+    'prefix': 'jovs'
+    'body': 'overflowStyle: \'$1\','
+
+  'clip':
+    'prefix': 'jcp'
+    'body': 'clip: \'$1\','
+
+  'box-sizing':
+    'prefix': 'jbxz'
+    'body': 'boxSizing: \'$1\','
+
+  'margin':
+    'prefix': 'jm'
+    'body': 'margin: \'$1\','
+
+  'margin-top':
+    'prefix': 'jmt'
+    'body': 'marginTop: \'$1\','
+
+  'margin-left':
+    'prefix': 'jml'
+    'body': 'marginLeft: \'$1\','
+
+  'margin-bottom':
+    'prefix': 'jmb'
+    'body': 'marginBottom: \'$1\','
+
+  'margin-right':
+    'prefix': 'jmr'
+    'body': 'marginRight: \'$1\','
+
+  'padding':
+    'prefix': 'jp'
+    'body': 'padding: \'$1\','
+
+  'padding-top':
+    'prefix': 'jpt'
+    'body': 'paddingTop: \'$1\','
+
+  'padding-left':
+    'prefix': 'jpl'
+    'body': 'paddingLeft: \'$1\','
+
+  'padding-bottom':
+    'prefix': 'jpb'
+    'body': 'paddingBottom: \'$1\','
+
+  'padding-right':
+    'prefix': 'jpr'
+    'body': 'paddingRight: \'$1\','
+
+  'width':
+    'prefix': 'jw'
+    'body': 'width: \'$1\','
+
+  'max-width':
+    'prefix': 'jmaw'
+    'body': 'maxWidth: \'$1\','
+
+  'min-width':
+    'prefix': 'jmiw'
+    'body': 'minWidth: \'$1\','
+
+  'height':
+    'prefix': 'jh'
+    'body': 'height: \'$1\','
+
+  'max-height':
+    'prefix': 'jmah'
+    'body': 'maxHeight: \'$1\','
+
+  'min-height':
+    'prefix': 'jmih'
+    'body': 'minHeight: \'$1\','
+
+  'max-resolution':
+    'prefix': 'jmar'
+    'body': 'maxResolution: $1,'
+
+  'min-resolution':
+    'prefix': 'jmir'
+    'body': 'minResolution: $1,'
+
+  'orientation':
+    'prefix': 'jori'
+    'body': 'orientation: $1,'
+
+  'outline':
+    'prefix': 'jol'
+    'body': 'outline: \'$1\','
+
+  'outline-style':
+    'prefix': 'jols'
+    'body': 'outlineStyle: \'$1\','
+
+  'outline-color':
+    'prefix': 'jolc'
+    'body': 'outlineColor: \'$1\','
+
+  'backface-visibility':
+    'prefix': 'jbfv'
+    'body': 'backfaceVisibility: \'$1\','
+
+
+
+  #
+  # border
+  #
+  'border':
+    'prefix': 'jbd'
+    'body': 'border: \'$1\','
+
+  'border-break':
+    'prefix': 'jbdbk'
+    'body': 'borderBreak: \'$1\','
+
+  'border-collapse':
+    'prefix': 'jbdcl'
+    'body': 'borderCollapse: \'$1\','
+
+  'border-color':
+    'prefix': 'jbdc'
+    'body': 'borderColor: \'#$1\','
+
+  'border-image':
+    'prefix': 'jbdi'
+    'body': 'borderImage: \'url($1)\','
+
+  'border-top-image':
+    'prefix': 'jbdti'
+    'body': 'borderTopImage: \'url($1)\','
+
+  'border-right-image':
+    'prefix': 'jbdri'
+    'body': 'borderRightImage: \'url($1)\','
+
+  'border-bottom-image':
+    'prefix': 'jbdbi'
+    'body': 'borderBottomImage: \'url($1)\','
+
+  'border-left-image':
+    'prefix': 'jbdli'
+    'body': 'borderLeftImage: \'url($1)\','
+
+  'border-corner-image':
+    'prefix': 'jbdci'
+    'body': 'borderCornerImage: \'url($1)\','
+
+  'border-top-left-image':
+    'prefix': 'jbdtli'
+    'body': 'borderTopLeftImage: \'url($1)\','
+
+  'border-top-right-image':
+    'prefix': 'jbdtri'
+    'body': 'borderTopRightImage: \'url($1)\','
+
+  'border-bottom-right-image':
+    'prefix': 'jbdbri'
+    'body': 'borderBottomRightImage: \'url($1)\','
+
+  'border-bottom-left-image':
+    'prefix': 'jbdbli'
+    'body': 'borderBottomLeftImage: \'url($1)\','
+
+  'border-fit':
+    'prefix': 'jbdf'
+    'body': 'borderFit: \'$1\','
+
+  'border-length':
+    'prefix': 'jbdlen'
+    'body': 'borderLength: \'$1\','
+
+  'border-spacing':
+    'prefix': 'jbdsp'
+    'body': 'borderSpacing: \'$1\','
+
+  'border-style':
+    'prefix': 'jbds'
+    'body': 'borderStyle: \'$1\','
+
+  'border-width':
+    'prefix': 'jbdw'
+    'body': 'borderWidth: \'$1\','
+
+  'border-top-width':
+    'prefix': 'jbdtw'
+    'body': 'borderTopWidth: \'$1\','
+
+  'border-right-width':
+    'prefix': 'jbdrw'
+    'body': 'borderRightWidth: \'$1\','
+
+  'border-bottom-width':
+    'prefix': 'jbdbw'
+    'body': 'borderBottomWidth: \'$1\','
+
+  'border-left-width':
+    'prefix': 'jbdlw'
+    'body': 'borderLeftWidth: \'$1\','
+
+  'border-top':
+    'prefix': 'jbdt'
+    'body': 'borderTop: \'$1\','
+
+  'border-top-style':
+    'prefix': 'jbdts'
+    'body': 'borderTopStyle: \'$1\','
+
+  'border-top-color':
+    'prefix': 'jbdtc'
+    'body': 'borderTopColor: \'#$1\','
+
+  'border-right':
+    'prefix': 'jbdr'
+    'body': 'borderRight: \'$1\','
+
+  'border-right-style':
+    'prefix': 'jbdrst'
+    'body': 'borderRightStyle: \'$1\','
+
+  'border-right-color':
+    'prefix': 'jbdrc'
+    'body': 'borderRightColor: \'#$1\','
+
+  'border-bottom':
+    'prefix': 'jbdb'
+    'body': 'borderBottom: \'$1\','
+
+  'border-bottom-style':
+    'prefix': 'jbdbs'
+    'body': 'borderBottomStyle: \'$1\','
+
+  'border-bottom-color':
+    'prefix': 'jbdbc'
+    'body': 'borderBottomColor: \'#$1\','
+
+  'border-left':
+    'prefix': 'jbdl'
+    'body': 'borderLeft: \'$1\','
+
+  'border-left-style':
+    'prefix': 'jbdls'
+    'body': 'borderLeftStyle: \'$1\','
+
+  'border-left-color':
+    'prefix': 'jbdlc'
+    'body': 'borderLeftColor: \'#$1\','
+
+  'border-radius':
+    'prefix': 'jbdrs'
+    'body': 'borderRadius: \'$1\','
+
+  'border-radius':
+    'prefix': 'jbdrs'
+    'body': 'borderRadius: \'$1\','
+
+  'border-top-right-radius':
+    'prefix': 'jbdtrrs'
+    'body': 'borderTopRightRadius: \'$1\','
+
+  'border-top-left-radius':
+    'prefix': 'jbdtlrs'
+    'body': 'borderTopLeftRadius: \'$1\','
+
+  'border-bottom-right-radius':
+    'prefix': 'jbdbrrs'
+    'body': 'borderBottomRightRadius: \'$1\','
+
+  'border-bottom-left-radius':
+    'prefix': 'jbdblrs'
+    'body': 'borderBottomLeftRadius: \'$1\','
+
+
+  #
+  # background
+  #
+  'background':
+    'prefix': 'jbg'
+    'body': 'background: \'#$1\','
+
+  'background-attachment':
+    'prefix': 'jbga'
+    'body': 'backgroundAttachment: \'$1\','
+
+  'background-color':
+    'prefix': 'jbgc'
+    'body': 'backgroundColor: \'#$1\','
+
+  'background-image':
+    'prefix': 'jbgi'
+    'body':'backgroundImage: \'url($1)\','
+
+  'background-position':
+    'prefix': 'jbgp'
+    'body':'backgroundPosition: \'$1\','
+
+  'background-position-x':
+    'prefix': 'jbgpx'
+    'body':'backgroundPositionX: \'$1\','
+
+  'background-position-y':
+    'prefix': 'jbgpy'
+    'body':'backgroundPositionY: \'$1\','
+
+  'background-repeat':
+    'prefix': 'jbgpr'
+    'body':'backgroundRepeat: \'$1\','
+
+  'background-break':
+    'prefix': 'jbgbk'
+    'body':'backgroundBreak: \'$1\','
+
+  'background-clip':
+    'prefix': 'bgcp'
+    'body':'backgroundClip: \'$1\','
+
+  'background-origin':
+    'prefix': 'bgo'
+    'body':'backgroundOrigin: \'$1\','
+
+  'background-size':
+    'prefix': 'bgsz'
+    'body':'backgroundSize: \'$1\','
+
+  'color':
+    'prefix': 'jc'
+    'body':'color: \'#$1\','
+
+  'content':
+    'prefix': 'jcnt'
+    'body':'content: \'\"$1\"\','
