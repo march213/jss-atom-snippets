@@ -1,10 +1,14 @@
-# jss-atom-snippets
+# jss atom snippets
+
+#### CSS properties in camelCase style for usage in css-in-js lib.
 
 ___
 
-### Example:
+### Usage example:
 
 ![Alt text](https://monosnap.com/file/iHbDUHkyBODrXJujJpWqWW5jylkIjg.png)
+
+___
 
 ![Alt text](https://monosnap.com/file/1pazPTK6rYThG7XBHL4BL5qzcsAOL1.png)
 
