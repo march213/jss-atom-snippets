@@ -8,6 +8,7 @@
     "snippets"
   ],
   "repository": "https://github.com/march213/jss-atom-snippets",
+  "author": "Evgeniya Molodetskaya",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/march213/jss-atom-snippets/issues"
