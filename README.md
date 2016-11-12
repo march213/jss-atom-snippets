@@ -13,5 +13,5 @@ ___
 
 * add rules jlis:n => listStyle: 'none',
 * add rules _jlis => 'list-style': 'none',
-* add rules from css-grid
+* add rules for css-grid
 * add rules for media-query, etc.
