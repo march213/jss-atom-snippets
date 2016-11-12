@@ -450,7 +450,7 @@
     'body': 'backgroundPositionY: \'$1\','
 
   'background-repeat':
-    'prefix': 'jbgpr'
+    'prefix': 'jbgr'
     'body': 'backgroundRepeat: \'$1\','
 
   'background-break':
