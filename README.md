@@ -4,6 +4,12 @@
 
 ___
 
+### Install
+
+Navigate to __Settings > Install__  and search for `jss-atom-snippets`.
+
+___
+
 ### Usage example:
 
 ![Alt text](https://monosnap.com/file/iHbDUHkyBODrXJujJpWqWW5jylkIjg.png)
