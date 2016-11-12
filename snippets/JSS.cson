@@ -435,44 +435,338 @@
 
   'background-image':
     'prefix': 'jbgi'
-    'body':'backgroundImage: \'url($1)\','
+    'body': 'backgroundImage: \'url($1)\','
 
   'background-position':
     'prefix': 'jbgp'
-    'body':'backgroundPosition: \'$1\','
+    'body': 'backgroundPosition: \'$1\','
 
   'background-position-x':
     'prefix': 'jbgpx'
-    'body':'backgroundPositionX: \'$1\','
+    'body': 'backgroundPositionX: \'$1\','
 
   'background-position-y':
     'prefix': 'jbgpy'
-    'body':'backgroundPositionY: \'$1\','
+    'body': 'backgroundPositionY: \'$1\','
 
   'background-repeat':
     'prefix': 'jbgpr'
-    'body':'backgroundRepeat: \'$1\','
+    'body': 'backgroundRepeat: \'$1\','
 
   'background-break':
     'prefix': 'jbgbk'
-    'body':'backgroundBreak: \'$1\','
+    'body': 'backgroundBreak: \'$1\','
 
   'background-clip':
     'prefix': 'bgcp'
-    'body':'backgroundClip: \'$1\','
+    'body': 'backgroundClip: \'$1\','
 
   'background-origin':
     'prefix': 'bgo'
-    'body':'backgroundOrigin: \'$1\','
+    'body': 'backgroundOrigin: \'$1\','
 
   'background-size':
     'prefix': 'bgsz'
-    'body':'backgroundSize: \'$1\','
+    'body': 'backgroundSize: \'$1\','
 
   'color':
     'prefix': 'jc'
-    'body':'color: \'#$1\','
+    'body': 'color: \'#$1\','
 
   'content':
     'prefix': 'jcnt'
-    'body':'content: \'\"$1\"\','
+    'body': 'content: \'\"$1\"\','
+
+
+
+  'table-layout':
+    'prefix': 'jtbl'
+    'body': 'tableLayout: \'$1\','
+
+  'caption-side':
+    'prefix': 'jcps'
+    'body': 'captionSide: \'$1\','
+
+  'empty-cells':
+    'prefix': 'jec'
+    'body': 'emptyCells: \'$1\','
+
+  'list-style':
+    'prefix': 'jlis'
+    'body': 'listStyle: \'$1\','
+
+  'list-style-position':
+    'prefix': 'jlisp'
+    'body': 'listStylePosition: \'$1\','
+
+  'list-style-type':
+    'prefix': 'jlis'
+    'body': 'listStyleType: \'$1\','
+
+  'list-style-image':
+    'prefix': 'jlisi'
+    'body': 'listStyleImage: \'$1\','
+
+  'quotes':
+    'prefix': 'jq'
+    'body': 'quotes: \'$1\','
+
+  'counter-increment':
+    'prefix': 'jcoi'
+    'body': 'counterIncrement: \'$1\','
+
+  'counter-reset':
+    'prefix': 'jcor'
+    'body': 'counterReset: \'$1\','
+
+  'vertical-align':
+    'prefix': 'jva'
+    'body': 'verticalAlign: \'$1\','
+
+  'text-align':
+    'prefix': 'jta'
+    'body': 'textAlign: \'$1\','
+
+  'text-align-last':
+    'prefix': 'jta-lst'
+    'body': 'textAlignLast: \'$1\','
+
+  'text-decoration':
+    'prefix': 'jtd'
+    'body': 'textDecoration: \'$1\','
+
+  'text-emphasis':
+    'prefix': 'jte'
+    'body': 'textEmphasis: \'$1\','
+
+  'text-height':
+    'prefix': 'jth'
+    'body': 'textHeight: \'$1\','
+
+  'text-indent':
+    'prefix': 'jti'
+    'body': 'textIndent: \'$1\','
+
+  'text-justify':
+    'prefix': 'jtj'
+    'body': 'textJustify: \'$1\','
+
+  'text-overflow':
+    'prefix': 'jtov'
+    'body': 'textOverflow: \'$1\','
+
+  'text-outline':
+    'prefix': 'jto'
+    'body': 'textOutline: \'$1\','
+
+  'text-transform':
+    'prefix': 'jtt'
+    'body': 'textTransform: \'$1\','
+
+  'text-wrap':
+    'prefix': 'jtw'
+    'body': 'textWrap: \'$1\','
+
+  'text-shadow':
+    'prefix': 'jtsh'
+    'body': 'text-shadow: \'$1\','
+
+  'transform':
+    'prefix': 'jtrf'
+    'body': 'transform: \'$1\','
+
+  'transform-origin':
+    'prefix': 'jtrfo'
+    'body': 'transformOrigin: \'$1\','
+
+  'transform-style':
+    'prefix': 'jtrfs'
+    'body': 'transformStyle: \'$1\','
+
+  'transition':
+    'prefix': 'jtrs'
+    'body': 'transition: \'$1\','
+
+  'transition-delay':
+    'prefix': 'jtrsde'
+    'body': 'transitionDelay: \'$1\','
+
+  'transition-duration':
+    'prefix': 'jtrsdu'
+    'body': 'transitionDuration: \'$1\','
+
+  'transition-property':
+    'prefix': 'jtrsp'
+    'body': 'transitionProperty: \'$1\','
+
+  'transition-timing-function':
+    'prefix': 'jtrstf'
+    'body': 'transitionTimingFunction: \'$1\','
+
+  'line-height':
+    'prefix': 'jlh'
+    'body': 'lineHeight: \'$1\','
+
+  'white-space':
+    'prefix': 'jwhs'
+    'body': 'whiteSpace: \'$1\','
+
+  'white-space-collapse':
+    'prefix': 'jwhsc'
+    'body': 'white-space-collapse: \'$1\','
+
+  'word-break':
+    'prefix': 'jwob'
+    'body': 'wordBreak: \'$1\','
+
+  'word-spacing':
+    'prefix': 'jwos'
+    'body': 'wordSpacing: \'$1\','
+
+  'word-wrap':
+    'prefix': 'jwow'
+    'body': 'wordWrap: \'$1\','
+
+  'writing-mode':
+    'prefix': 'jwm'
+    'body': 'writingMode: \'$1\','
+
+  'letter-spacing':
+    'prefix': 'jlts'
+    'body': 'letterSpacing: \'$1\','
+
+  'font':
+    'prefix': 'jf'
+    'body': 'font: \'$1\','
+
+  'font-weight':
+    'prefix': 'jfw'
+    'body': 'fontWeight: \'$1\','
+
+  'font-style':
+    'prefix': 'jfs'
+    'body': 'fontStyle: \'$1\','
+
+  'font-variant':
+    'prefix': 'jfv'
+    'body': 'fontVariant: \'$1\','
+
+  'font-size':
+    'prefix': 'jfz'
+    'body': 'fontSize: \'$1\','
+
+  'font-size-adjust':
+    'prefix': 'jfza'
+    'body': 'fontSizeAdjust: \'$1\','
+
+  'font-family':
+    'prefix': 'jff'
+    'body': 'fontFamily: \'$1\','
+
+  'font-effect':
+    'prefix': 'jfef'
+    'body': 'fontEffect: \'$1\','
+
+  'font-emphasize':
+    'prefix': 'jfem'
+    'body': 'fontEmphasize: \'$1\','
+
+  'font-emphasize-position':
+    'prefix': 'jfemp'
+    'body': 'fontEmphasizePosition: \'$1\','
+
+  'font-emphasize-style':
+    'prefix': 'jfems'
+    'body': 'fontEmphasizeStyle: \'$1\','
+
+  'font-smooth':
+    'prefix': 'jfsm'
+    'body': 'fontSmooth: \'$1\','
+
+  'font-stretch':
+    'prefix': 'jfst'
+    'body': 'fontStretch: \'$1\','
+
+  'opacity':
+    'prefix': 'jop'
+    'body': 'opacity: $1,'
+
+  'resize':
+    'prefix': 'jrsz'
+    'body': 'resize: \'$1\','
+
+  'cursor':
+    'prefix': 'jcur'
+    'body': 'cursor: \'$1\','
+
+  'flex-direction':
+    'prefix': 'jfxd'
+    'body': 'flexDirection: \'$1\','
+
+  'flex-wrap':
+    'prefix': 'jfxw'
+    'body': 'flexWrap: \'$1\','
+
+  'flex-flow':
+    'prefix': 'jfxf'
+    'body': 'flexFlow: \'$1\','
+
+  'justify-content':
+    'prefix': 'jjc'
+    'body': 'justifyContent: \'$1\','
+
+  'align-items':
+    'prefix': 'jai'
+    'body': 'alignItems: \'$1\','
+
+  'align-content':
+    'prefix': 'jac'
+    'body': 'alignContent: \'$1\','
+
+  'order':
+    'prefix': 'jord'
+    'body': 'order: $1,'
+
+  'flex-grow':
+    'prefix': 'jfxg'
+    'body': 'flexGrow: \'$1\','
+
+  'flex-shrink':
+    'prefix': 'jfxsh'
+    'body': 'flexShrink: \'$1\','
+
+  'flex-basis':
+    'prefix': 'jfxb'
+    'body': 'flexBasis: \'$1\','
+
+  'flex':
+    'prefix': 'jfx'
+    'body': 'flex: \'$1\','
+
+  'align-self':
+    'prefix': 'jas'
+    'body': 'alignSelf: \'$1\','
+
+  'page-break-before':
+    'prefix': 'jpgbb'
+    'body': 'pageBreakBefore: \'$1\','
+
+  'page-break-inside':
+    'prefix': 'pgbi'
+    'body': 'pageBreakInside: \'$1\','
+
+  'page-break-after':
+    'prefix': 'jpgba'
+    'body': 'pageBreakAfter: \'$1\','
+
+  'orphans':
+    'prefix': 'jorp'
+    'body': 'orphans: \'$1\','
+
+  'user-select':
+    'prefix': 'jus'
+    'body': 'userSelect: \'$1\','
+
+  'widows':
+    'prefix': 'jwid'
+    'body': 'widows: \'$1\','

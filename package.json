@@ -4,10 +4,14 @@
   "description": "JSS snippets for atom",
   "keywords": [
     "jss",
+    "css-in-js",
     "snippets"
   ],
   "repository": "https://github.com/march213/jss-atom-snippets",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/march213/jss-atom-snippets/issues"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
