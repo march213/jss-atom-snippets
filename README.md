@@ -25,7 +25,7 @@ ___
 
 ### Todo
 
-[ ] add rules jlis:n => listStyle: 'none',
-[x] add rules _jlis => 'list-style': '',
-[ ] add rules for css-grid
-[ ] add rules for media-query, etc.
++ add rules jlis:n => listStyle: 'none',
++ ~~add rules _jlis => 'list-style': '',~~
++ add rules for css-grid
++ add rules for media-query, etc.
