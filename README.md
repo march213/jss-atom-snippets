@@ -1,6 +1,6 @@
 # jss atom snippets
 
-#### CSS properties in camelCase style for usage in css-in-js lib.
+#### CSS properties in camelCase/kebab style for usage in css-in-js lib.
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 ### Todo
 
-+ add rules jlis:n => listStyle: 'none',
-+ ~~add rules _jlis => 'list-style': '',~~
++ add rules jlis:n => listStyle: 'none'
++ ~~add rules _jlis => 'list-style': ''~~
 + add rules for css-grid
-+ add rules for media-query, etc.
++ add rules for media-query, keyframes, etc.
