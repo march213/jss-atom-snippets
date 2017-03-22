@@ -12,15 +12,7 @@ ___
 
 ### Usage example:
 
-![Alt text](https://monosnap.com/file/iHbDUHkyBODrXJujJpWqWW5jylkIjg.png)
-
-___
-
-![Alt text](https://monosnap.com/file/1pazPTK6rYThG7XBHL4BL5qzcsAOL1.png)
-
-___
-
-![Alt text](https://monosnap.com/file/k4mU8r4fPESt2klRzYxNJC1pD2EIix.png)
+![Alt text](https://monosnap.com/file/pXQFvHNiur4bWbozTI6DqdZq5bTOzn.png)
 
 
 ### Todo
