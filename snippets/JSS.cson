@@ -150,6 +150,10 @@
     'prefix': 'jbxz'
     'body': 'boxSizing: \'$1\','
 
+  'box-shadow':
+    'prefix': 'jbs'
+    'body': 'boxShadow: \'$1\','
+
   'margin':
     'prefix': 'jm'
     'body': 'margin: \'$1\','
@@ -906,7 +910,11 @@
 
   '_box-sizing':
     'prefix': '_jbxz'
-    'body': '\'boxSizing\': \'$1\','
+    'body': '\'box-sizing\': \'$1\','
+
+  '_box-shadow':
+    'prefix': '_jbs'
+    'body': '\'box-shadow\': \'$1\','
 
   '_margin':
     'prefix': '_jm'
@@ -1508,7 +1516,7 @@
 
   '_user-select':
     'prefix': '_jus'
-    'body': '\'userSelect\': \'$1\','
+    'body': '\'user-select\': \'$1\','
 
   '_widows':
     'prefix': '_jwid'
